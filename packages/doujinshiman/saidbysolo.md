@@ -5,15 +5,15 @@ https://doujinshiman.ga/v3/api/
 
 `{ Authorization: ???? }`
 
-## Hitomi
 
-### Proxy
+## Proxy
 
-hitomi/proxy/{thumbnail}
+proxy/{shufled_image}
 
 Respone
 > Picture
 
+## Hitomi
 
 ### Integrated
 
