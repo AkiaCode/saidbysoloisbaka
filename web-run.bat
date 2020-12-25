@@ -1,0 +1,1 @@
+cd web && node index.js
