@@ -9,4 +9,4 @@ export const hitomiImages = (num: number) => hitomi + "/images/" + num
 export const hitomiIndex = hitomi + "/index"
 export const hitomiInfo = (num: number) => hitomi + "/info/" + num
 export const hitomiIntegrated = (num: number) => hitomi + "/integrated/" + num 
-export const hitomiProxy = (path: string) => hitomi + "/proxy/" + path
+export const hitomiProxy = (path: string) => BASEURL + "proxy/" + path

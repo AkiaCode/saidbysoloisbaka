@@ -9,7 +9,7 @@ import { header } from "../../../config.ts"
 export class Rest {
     constructor () {}
 
-    private async getRespone (url: string): Promise<any | undefined> {
+    private async getRespone(url: string): Promise<any | undefined> {
         const data = await fetch(url, { headers: { Authorization: header } })
         if (!data.ok) return undefined
         return data.json().then(d => d)

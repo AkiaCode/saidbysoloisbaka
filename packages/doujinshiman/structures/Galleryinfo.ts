@@ -6,7 +6,7 @@ export class Galleryinfo extends Base {
     language_localname: string
     id: string
     language: string;
-    data: string;
+    date: string;
     files: FilePayload[];
     tags: ValuePayload[];
     japanese_title?: string;
@@ -17,7 +17,7 @@ export class Galleryinfo extends Base {
         this.status = data.status
         this.language_localname = data.language_localname
         this.language = data.language
-        this.data = data.data
+        this.date = data.date
         this.files = data.files
         this.tags = data.tags
         this.japanese_title = data?.japanese_title

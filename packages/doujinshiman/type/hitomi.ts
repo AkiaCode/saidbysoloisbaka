@@ -41,7 +41,7 @@ export interface StatusPayload  {
 export interface GalleryinfoPayload extends StatusPayload {
     language_localname: string
     language: string
-    data: string
+    date: string
     files: FilePayload[]
     tags: ValuePayload[]
     japanese_title?: string

@@ -1,3 +1,4 @@
+import { Token } from "./config.ts"
 import { CommandClient, Intents } from './deps.ts'
 import { commands } from './utils/commandslist.ts'
 
@@ -14,4 +15,4 @@ commands.forEach((Command) => {
     client.commands.add(cmd)
 })
 
-client.connect('NzkxOTE0NTU1MTk0MzQzNDY0.X-WF5w.dUg_w99X_iSSVJiF_Ceox-j48AM', Intents.None)
+client.connect(Token, Intents.None)
